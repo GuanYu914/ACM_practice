@@ -10,6 +10,8 @@ all: init
 	${CC} -o ${BUILD_DIR}/Q494   ./ACM_Q494_practice.c
 	${CC} -o ${BUILD_DIR}/Q488   ./ACM_Q488_practice.c
 	${CC} -o ${BUILD_DIR}/Q272   ./ACM_Q272_practice.c
+	${CC} -o ${BUILD_DIR}/Q579   ./ACM_Q579_practice.c
+	${CC} -o ${BUILD_DIR}/Q591   ./ACM_Q591_practice.c
 
 init:
 	${MKDIR} -p ${BUILD_DIR}
