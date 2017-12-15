@@ -23,6 +23,7 @@ unsigned long int f(int n, int m)
         if(m == 1) return n;
         if(m == 0) return 1;
         if(m == n) return 1;
+		/*if data[n][m] is recalculated value, just return it*/
         if(data[n][m]) return data[n][m];
         return data[n][m] = f(n-1, m) + f(n-1, m-1) ;
 }
